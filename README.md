@@ -1,4 +1,4 @@
-# Joystick Control Turtlesim
+# Joystick Control Turtlesim (Arduino + ROS)
 
 This is about to control turtlesim by using Arduino - Joystick setup. There will be a min-max values evaluation to finalize the value and then it will send to the `/cmd_vel` topic for action.
 
@@ -17,7 +17,7 @@ This is about to control turtlesim by using Arduino - Joystick setup. There will
 8. Then able to see the Turtle move according to the joystick commands.
 
 ## Demostration Video
-[![Demostratoion](https://img.youtube.com/vi/<id>/0.jpg)](https://www.youtube.com/watch?v=<id>)
+[![Demostratoion](https://img.youtube.com/vi/i6VVDJAOV_g/0.jpg)](https://www.youtube.com/watch?v=i6VVDJAOV_g)
 
 <br>
 
