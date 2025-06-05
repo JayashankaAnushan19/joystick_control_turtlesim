@@ -11,7 +11,7 @@ def main():
     pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
     rate = rospy.Rate(20)
 
-    arduino = serial.Serial('/dev/ttyACM0', 9600, timeout=1)  # Adjust port if needed
+    arduino = serial.Serial('/dev/ttyACM0', 9600, timeout=1)  # Need to change port as per device
     move_cmd = Twist()
 
     while not rospy.is_shutdown():
